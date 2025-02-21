@@ -8,6 +8,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: red;
+  border: 2px black solid;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .title {
   display: flex;
@@ -15,4 +25,5 @@
   align-items: baseline;
   flex-direction: row;
   font-size: 50px;
+  text-shadow: black -1px 0 8px;
 }
